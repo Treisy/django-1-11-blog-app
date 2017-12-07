@@ -29,7 +29,7 @@ def post_list(request, tag_slug=None):
         posts = paginator.page(paginator.num_pages)
 
     return render(request, 'blog/post/list.html', {'page':page,
-                                                    'posts':posts,
+                                                   'posts':posts,
                                                    'tag':tag})
 
 
@@ -92,5 +92,5 @@ def post_share(request, post_id):
     else:
         form = EmailPostForm()
     return render(request, 'blog/post/share.html', {'post': post,
-                                                        'form': form,
-                                                        'sent': sent})
+                                                    'form': form,
+                                                    'sent': sent})
