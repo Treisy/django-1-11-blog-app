@@ -1,0 +1,27 @@
+{
+  "name": "django_blog_app",
+  "description": "Django Blog App",
+  "main": "index.js",
+  "authors": [
+    "Treisy Jimenez Vega"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "django",
+    "python",
+    "bootstrap",
+    "blog"
+  ],
+  "homepage": "https://github.com/Treisy/django-1-11-blog-app",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6"
+  }
+}

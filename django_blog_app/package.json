@@ -1,0 +1,35 @@
+{
+  "name": "django_blog_app",
+  "version": "1.0.0",
+  "description": "Django Blog App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Treisy/django-1-11-blog-app.git"
+  },
+  "keywords": [
+    "django",
+    "python",
+    "bootstrap",
+    "blog"
+  ],
+  "author": "Treisy Jimenez Vega",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Treisy/django-1-11-blog-app/issues"
+  },
+  "homepage": "https://github.com/Treisy/django-1-11-blog-app#readme",
+  "devDependencies": {
+    "bower": "^1.8.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=6.9.1"
+  }
+}
