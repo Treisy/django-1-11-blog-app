@@ -1,7 +1,17 @@
 //Bootstrap imports
 @import "../bower_components/bootstrap/scss/variables";
+@import "../bower_components/bootstrap/scss/mixins";
 
 @import "../bower_components/bootstrap/scss/normalize";
+@import "../bower_components/bootstrap/scss/print";
+
+@import "../bower_components/bootstrap/scss/reboot";
+@import "../bower_components/bootstrap/scss/grid";
+@import "../bower_components/bootstrap/scss/utilities";
+@import "../bower_components/bootstrap/scss/jumbotron";
+@import "../bower_components/bootstrap/scss/card";
+@import "../bower_components/bootstrap/scss/list-group";
+@import "../bower_components/bootstrap/scss/forms";
 
 //Custom
 @import 'helpers/typo';
